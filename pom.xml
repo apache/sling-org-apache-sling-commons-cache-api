@@ -38,7 +38,7 @@
     <properties>
         <sling.java.version>8</sling.java.version>
         <project.build.outputTimestamp>1</project.build.outputTimestamp>
-        <bnd.baseline.skip>true</bnd.baseline.skip>
+        <bnd.baseline.fail.on.missing>false</bnd.baseline.fail.on.missing>
     </properties>
 
     <scm>
