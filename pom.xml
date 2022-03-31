@@ -53,16 +53,6 @@
             <plugin>
                 <groupId>biz.aQute.bnd</groupId>
                 <artifactId>bnd-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>bnd-process</id>
-                        <configuration>
-                            <bnd><![CDATA[
-                            Export-Package: org.apache.sling.commons.cache.api;version="1.0"
-                            ]]></bnd>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
@@ -73,6 +63,13 @@
             <groupId>biz.aQute</groupId>
             <artifactId>bndlib</artifactId>
             <version>1.50.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- OSGi Dependencies -->
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.annotation.versioning</artifactId>
             <scope>provided</scope>
         </dependency>
     </dependencies>
