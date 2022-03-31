@@ -58,14 +58,6 @@
     </build>
 
     <dependencies>
-        <!--  used for package-info annotations -->
-        <dependency>
-            <groupId>biz.aQute</groupId>
-            <artifactId>bndlib</artifactId>
-            <version>1.50.0</version>
-            <scope>provided</scope>
-        </dependency>
-
         <!-- OSGi Dependencies -->
         <dependency>
             <groupId>org.osgi</groupId>
